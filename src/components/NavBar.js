@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 function NavBar() {
   return (
     <div>
-      <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+      <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
         <div className='container-fluid'>
           <NavLink className='navbar-brand' to='/'>
             MYPOSTAPP
@@ -44,8 +44,8 @@ function NavBar() {
                 placeholder='Search'
                 aria-label='Search'
               />
-              <button className='btn btn-outline-success' type='submit'>
-                Search
+              <button className='btn btn-primary' type='submit'>
+                <i className='fa-solid fa-magnifying-glass'></i>
               </button>
             </form>
           </div>
