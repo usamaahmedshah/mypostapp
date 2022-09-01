@@ -218,8 +218,65 @@ function Home() {
           </div>
         </div>
       </section>
+      <section
+        className='container-fluid bg-primary bg-grdient mt-5'
+        style={{ minHeight: '180px' }}
+      >
+        <div className='d-flex flex-column justify-content-center align-items-center'>
+          <i className='fs-1 text-warning my-3 fa-solid fa-location-dot'></i>
+          <h3 className='text-white text-uppercase'>
+            We have a wide variety of posts
+          </h3>
+          <button className='fw-bold btn btn-warning my-2 text-uppercase'>
+            View All Posts
+          </button>
+        </div>
+      </section>
       <section classNameNameName='our-portfolio container'>
-        <h3 className='text-center text-uppercase pt-4'>Our Portfolio</h3>
+        <h3 className='text-center text-uppercase py-4'>Our Portfolio</h3>
+        <div className='container overflow-hidden'>
+          <div className='row gy-5'>
+            <div className='col-6'>
+              <div className='p-3 border bg-light'>
+                <img
+                  src='https://images.unsplash.com/photo-1661966522340-a51f578e4017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+                  className='card-img-top'
+                  alt='...'
+                />
+              </div>
+            </div>
+            <div className='col-6'>
+              <div className='p-3 border bg-light'>
+                <img
+                  src='https://images.unsplash.com/photo-1661966522340-a51f578e4017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+                  className='card-img-top'
+                  alt='...'
+                />
+              </div>
+            </div>
+            <div className='col-6'>
+              <img
+                src='https://images.unsplash.com/photo-1661966522340-a51f578e4017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='p-3 border bg-light'>
+                <img
+                  src='https://images.unsplash.com/photo-1661966522340-a51f578e4017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+                  className='card-img-top'
+                  alt='...'
+                />
+              </div>
+            </div>
+            <div className='col-6'>
+              <img
+                src='https://images.unsplash.com/photo-1661966522340-a51f578e4017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+                className='card-img-top'
+                alt='...'
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

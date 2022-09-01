@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
     <div>
       <nav className='navbar navbar-expand-lg navbar-dark bg-primary bg-gradient'>
         <div className='container-fluid'>
-          <NavLink className='navbar-brand' to='/'>
+          <NavLink className='navbar-brand text-uppercase' to='/'>
             MYPOSTAPP
           </NavLink>
           <button
@@ -24,7 +24,16 @@ function NavBar() {
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
                 <NavLink
-                  className='nav-link active'
+                  className='nav-link text-uppercase active'
+                  aria-current='page'
+                  to='/'
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink
+                  className='nav-link text-uppercase active'
                   aria-current='page'
                   to='/about'
                 >
@@ -32,7 +41,7 @@ function NavBar() {
                 </NavLink>
               </li>
               <li className='nav-item'>
-                <NavLink className='nav-link' to='/contact'>
+                <NavLink className='nav-link text-uppercase' to='/contact'>
                   Contact
                 </NavLink>
               </li>
